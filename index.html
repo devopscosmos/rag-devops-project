@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>RAG Chat</title>
+    <style>
+        body {
+            font-family: Arial;
+            margin: 40px;
+        }
+        input {
+            width: 400px;
+            padding: 10px;
+        }
+        button {
+            padding: 10px 20px;
+            margin-left: 10px;
+        }
+        #answer {
+            margin-top: 20px;
+            font-size: 16px;
+            white-space: pre-wrap;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Ask your documents</h2>
+
+    <input type="text" id="question" placeholder="Ask something..." />
+    <button onclick="ask()">Ask</button>
+
+    <div id="answer"></div>
+
+    <script>
+        async function ask() {
+            let btn = document.querySelector("button");
+            let questionInput = document.getElementById("question");
+            let answerBox = document.getElementById("answer");
+
+            let question = questionInput.value.trim();
+
+            if (!question) {
+                answerBox.innerText = "Please enter a question.";
+                return;
+            }
+
+            // Disable button to prevent multiple clicks
+            btn.disabled = true;
+
+            // Show loading
+            answerBox.innerText = "Thinking...";
+
+            try {
+                let response = await fetch("http://127.0.0.1:8000/ask", {
+                    method: "POST",
+                    headers: {
+                        "Content-Type": "application/json"
+                    },
+                    body: JSON.stringify({ question: question })
+                });
+
+                let data = await response.json();
+
+                // Show answer
+                answerBox.innerText = data.answer || data.error;
+
+            } catch (error) {
+                answerBox.innerText = "Error: " + error;
+            }
+
+            // Small delay to avoid rapid calls
+            await new Promise(r => setTimeout(r, 500));
+
+            // Re-enable button
+            btn.disabled = false;
+        }
+    </script>
+
+</body>
+</html>

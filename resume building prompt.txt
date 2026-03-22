@@ -1,0 +1,175 @@
+Current CTC + Fixed + Variable + RSU (last 3 years breakdown if possible)
+current LPA 24 fixed since 1.5 yrs, before that it was 8.9 lpa
+
+Current location & openness to relocate (Bangalore, Hyderabad, Pune, Gurgaon, US, EU, remote etc.)
+current location is pune, open to relocate to europe, malaysia, and other safe/stable countries which provide better money, work life balance and safe from war like situations like currently ongoing. but I need sponcership as I am indian citizen.
+
+Total experience & Azure DevOps-specific experience (in years + months)
+7 years and 2 months in azure cloud, azure devops yaml pipelines, and 5+ in kubernetes, I like doing automations in shell/bash (preferred), powershell/python(using ai tools) integrating with ado, azure services, I am certified terraform associate, CKAD in kubernetes, az104, az900, azure services I use primarily are azure vm (ubuntu), vmss, aks, function app, vnet, azure front door, nsg, contour ingress, lb, key vault, storage accounts, automation acounts, self hosted agents, private endpoints, dns zones, private dns zones, eventhub(less handson), app service log analytics, app insights, azure monitoring, cost management and many more
+
+Highest Azure DevOps role/title you’ve held (Lead, Architect, Principal, Staff, etc.)
+senior devops consultant
+
+Company names (past & present) + company tier (FAANG/MANGA, product startup, WITCH, GCC, bank, etc.)
+capgemini (RBC), amdocs (AT&T), tredence (beverages domain),parentpay (uk based edtech product company)
+
+Biggest team size you’ve led or influenced (direct/indirect reports)
+led 5+ team as technical team leader, biggest team was with 45+ teammembers with me as only devops
+
+Largest Azure DevOps organization you’ve managed (number of projects/collections, repos, pipelines, active developers)
+ado with 10 projects with project having 10+ repos and pipeline for each repo having 15+ developers for each project in ado
+
+Have you done Azure DevOps at monorepo scale (>100k commits, >200 developers)?
+dont remember but my project contributors were more than70+ which might have crossed 100k commits
+
+Have you designed or migrated to multi-stage YAML pipelines at enterprise scale?
+yes, my fav part, I like designing multistage yaml pipelines
+
+Self-hosted agents or scale-set agents — which one have you built and managed at scale? How many concurrent agents max?
+self hosted agent as vmss with max 25 instances
+
+Have you ever built and maintained a secure golden pipeline template library used by 50+ teams?
+dont know what golden pipeline is but I am extensively using libraries in ado for my pipelines with 15+ teams working on at same time
+
+Kubernetes experience level? (Just deploy via YAML, or you’ve built Helm charts, operators, Kustomize, ArgoCD, Flux, Cluster API, AKS/EKS/GKE?)
+not just yamls, wrote yamls, certified and studied a lot in kubernetes, only worked on AKS with k8s entities like deployments, services, hpa, pods, namespace, namespaces quota, resources cpu, memory, deployment strategies, nodes, autoscaling, keda (less handson), netpolicies, role binding, contour ingress controller, used helm as well in some repos
+
+Terraform or Bicep or ARM — which one are you strongest in? Cloud (Azure/AWS/GCP)?
+Terraform with azure, certified in terraform, but less hands on on modules (I am trying to get handson with my personal projects)
+
+Ever achieved >90% infrastructure-as-code coverage?
+yep. almost all projects
+
+Security tools you’ve integrated in pipelines (Defender, Trivy, Checkmarx, SonarQube, Mend, BlackDuck, Veracode, etc.)
+trivy for image and repo files scanning, kiuwan, code covergae, talisman
+
+Have you ever done Azure DevOps migration for a bank or regulated industry (PCI/SOC2/FedRAMP/HIPAA)?
+I think I use SOC2, but not sure
+
+Certifications you hold (Az-400, Terraform Associate, CKA/CKS, AWS DevOps Pro, TOGAF, etc.)
+terraform associate 003, CKAD in kubernetes, az104, az900, won award for automations , another award in prev company for great technical initiatives including appreciation certificates
+
+Any public speaking, blogging, internal tech talks, or open-source contributions?
+No, but currently I am learning AI intergation as devops in which I created RAG ipeline which include one base and one text embeded model to give me answers on my docs pdf books I saved using faiss vector db using azure openai which will be deployed in azure aks using terraform where I will be using tf modules, I will be  publishing this URL after doing one more ML pipeline along with this RAG pipeline
+
+Biggest cost-saving you ever achieved with Azure DevOps (self-hosted agents, pipeline optimization, etc.)
+yes, in almost every aspect, for resource, autoscaling, agents
+
+Have you ever built platform engineering / internal developer platform using Azure DevOps + Backstage / custom portal?
+didnt get this, ignore if not imp
+
+Variable groups, secure files, service connections — how do you handle secrets at scale? (Azure Key Vault, HashiCorp Vault, both?)
+I use azure key vault, library, library with azure key vault, aks sercets for aks level
+
+Any experience with GitHub Actions + Azure DevOps hybrid setups?
+Yes, I recently created one pipeline with github actions but my primary is azure devops yaml pipeline
+
+Highest package you were offered (but rejected) and why?
+27 but I didnt rejected, the offer came late
+
+Target CTC right now (real number, no shyness — I keep everything confidential)
+as big number as possible  but I want work life balance with my health intact 
+
+Finally — paste your current resume here (raw text or PDF → text is fine). Remove phone/email if you want.
+ParentPay Group, Senior DevOps Engineer. Oct 2024 - Present. Pune, India.
+ParentPay India Pvt. Ltd. is the Pune-based global software development center of the UK’s ParentPay Group, which provides digital 
+payment and management solutions for schools.
+● Provisioned Azure resources using Terraform IaC and deployed applications to AKS via Azure DevOps CI/CD pipelines
+● Formulated impactful organization-wide automation solutions to enhance security and infrastructure access workflow as an 
+individual contributor (Trivy pipeline for image and repo scanning)
+● Integrated key vault with infrastructure and application pipeline deployments for sensitive data handling
+● Integrated databases with Microsoft Intra authentication and enforced pod and cluster security best practices along with 
+Kubernetes RBAC
+● Configured secured release management and pipeline security hardening with environment isolations
+● Delivered cloud infrastructure solutions by deploying and managing a wide range of Azure services including Virtual Machines, Key 
+Vault, Network Security Groups (NSGs) , firewall rules , Azure Kubernetes Service (AKS), Azure Storage, App Service, DNS Zones, 
+and Azure SQL Databases etc. 
+● Expanded scope of responsibilities to include advanced Azure operations such as Automation Accounts, cost optimization 
+strategies, Azure Active Directory (AAD) governance, user management in Azure DevOps, proactive alerting and monitoring setups, 
+CI/CD pipeline security hardening, PowerShell scripting, and Logic Apps integration for workflow automation 
+Tredence, Associate Manager. Aug 2024- Oct 2024 . Pune, India. 
+● Contributed to DevOps initiatives using tools and practices aligned with prior experience in Azure, CI/CD, and infrastructure
+automation. 
+Amdocs, DevOps Engineer Jun 2021 - Aug 2024. Pune, India.
+Amdocs India is a leading provider of software and services to communications and media companies, drives large-scale digital 
+transformation, cloud migration, and automation projects for global telecom leaders like AT&T. 
+● Worked as Azure DevOps Engineer and played pivotal role in AT&T cloud migration project
+● Spearheaded the automations in the project Won Amdocs Value Award
+● Implemented Identity and Access Management (IAM) using Azure AD (Entra ID) with role-based access control (RBAC) and leastprivilege principles
+● Configured alerts for security events, availability, performance
+● Design and implementation of robust CI/CD azure pipelines with repo and branch security
+● Orchestrated the seamless deployment of cloud infrastructure utilizing Terraform
+● Experienced in deployment and managed Azure Kubernetes clusters
+● Proficiently automated installations within virtual machines using Ansible via pipelines
+● Handled the provisioning and resolution of issues across a spectrum of Azure resources, including but not limited to virtual 
+networks, AKS, key vaults, private endpoints, virtual machines, RBAC
+● Skills : Azure DevOps, Terraform, Azure Kubernetes, Ansible , Shell , Azure CLI, YAML pipelines
+● Achievements: Value Award , AT&T Cloud Program Appreciation Certificate.
+Capgemini, Associate Consultant Jan 2019 - Jun 2021. Hyderabad, India.
+Capgemini is a global leader in consulting, technology services, and digital transformation, enabling clients to navigate their cloud and digital
+journeys.
+● Managed team of 4 and was a key member from offshore in financial services
+● Trained new joiners in team 
+● Worked as Mainframe developer for cloud migration project of Royal Bank of Canada (RBC)
+● Strategized migration by analyzing application flow and its impact and resolved potential migration errors
+● Responsibilities : Create, Analyze and troubleshoot mainframe programs to derive business rules using ADO and manage pipelines 
+● Skills : Azure DevOps, Azure, YAML Pipeline, Cobol, Team Management 
+● Certificates : Rockstars at Capgemini Certificate
+TECHNICAL CERTIFICATIONS
+ Certified Kubernetes Application Developer (CKAD)
+Terraform Associate HCTA0-003
+Microsoft Certified AZ-104 Azure Administrator 
+Microsoft Certified AZ-900 Azure Fundamentals
+_______________________________________________________
+
+
+ParentPay (current role): How many AKS clusters are you managing? How many apps/microservices deployed?
+5 AKS clusters for each env (dev, qa, perf, prod), eack cluster has min 10 microservices
+
+Trivy pipeline: Did this scan all repos/images across the org? How many teams adopted it? I proposed, planned, designed this for org level functioning
+
+Cost savings: Any rough estimate on self-hosted VMSS agents vs Microsoft-hosted? (e.g., "Saved ~₹8-10 lakhs/year" or "reduced pipeline costs by 60%")
+never calculated but should be min 30% (not sure), created cost dashboards, deleted PE, Vms, unused disks, poc resources, set autoscaling to reduce, set autoshutdown for vms, lifecycly policies for storages to deletd old data and many more. worked on az sql dbs to decide on vcore or dtu model to save cost
+
+Amdocs (AT&T): You mentioned "45+ team members with you as only DevOps" — were you THE solo DevOps engineer supporting 45 developers? (If yes, this is GOLD) Yes, I was only devops
+
+AT&T cloud migration scale: Roughly how many VMs/apps migrated? (20? 50? 100+?) 15+ I guess
+
+Library/templates in ADO: You said "15+ teams using libraries" — did you create reusable YAML templates that they consumed? (e.g., template: build-dotnet.yml type stuff?) Yes
+
+Multi-stage pipelines: How many stages typically? (Build → Test → Deploy to Dev → QA → Prod?) Did you use approval gates/environments? build plus 4 env  means minimum 5 stages
+
+Branch policies: Did you enforce PR required + build validation + SonarQube quality gate before merge?
+enforced  PR, PR min approval, condition for PR reset, file type, extension level approval, approval gate for prod, kiuwan, branch and line level code coverage, talisman as part of CI pipeline
+
+Helm: Did you write Helm charts from scratch or mostly helm install existing charts?
+existing charts but I cam write from scrach, I dont think it will be difficult (I suppose)
+
+KEDA (Kubernetes Event Driven Autoscaling): Even "less hands-on" counts — did you set up auto-scaling based on queue length, HTTP requests, or custom metrics?
+set up on request count
+
+Network policies: Did you write Calico/Azure CNI network policies to isolate namespaces/pods in production? I worked on both and studied them theoratically in but I think you are pointing to pod and service CIDR uses to allocate IPs so that aks subnet will not get exstausted
+
+State management: Did you use Azure Storage backend with state locking (azurerm backend)? yes, azure storage blob
+
+Modules (personal project): You're learning modules — have you created even 1 reusable module (e.g., AKS module, VMSS module)? If yes, I'll add "Developing reusable Terraform modules for AKS, networking, VMSS" yes , you can I can assure I know that much
+
+Workspaces or separate backends: Did you use Terraform workspaces or separate .tfvars files for dev/staging/prod? used both
+
+RAG pipeline with Azure OpenAI + AKS:
+Is this live/in-progress? in progress, I have created swagger api which is working now, next part - I will create docker - deploy in aks - write everything in terraform
+
+Will you deploy it publicly (GitHub repo + live URL)? YES
+
+If yes, I'll add this as a standout personal project in your resume (shows you're ahead of the curve on AI + MLOps) Yep sure, in some weeks I will take another project for ML after this RAG pipeline
+____________________________
+
+
+"I was the solo DevOps for 45 developers" ← This justifies Lead/Staff title instantly
+"I designed an org-wide security initiative adopted by all teams" ← Shows strategic thinking
+"I manage 5 production clusters with 50+ microservices" ← Scale
+"30% cost savings" ← Business impact
+"Won company-wide automation award" ← Recognition
+"Building AI/MLOps pipeline in personal time" ← Shows you're ahead of the curve
+
+_____________________________________________________________________________________________
