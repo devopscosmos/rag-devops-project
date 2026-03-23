@@ -1,2 +1,2 @@
 rg_name = "dev-rag-rg"
-rg_location = "eastus2"
+rg_location = "Central India"
