@@ -31,6 +31,11 @@ jobs:
       run: terraform init
       working-directory: terraform/env/dev
 
+    - name: Terraform Import OpenAI
+      run: |
+        terraform import azurerm_cognitive_account.openai "/subscriptions/9eeff072-d8d5-4fba-b08e-fa6657f93afe/resourceGroups/rg-ai-rag/providers/Microsoft.CognitiveServices/accounts/openai-rag-northcentralus"
+      working-directory: terraform/env/dev
+
     - name: Terraform Plan
       run: terraform plan
       working-directory: terraform/env/dev
