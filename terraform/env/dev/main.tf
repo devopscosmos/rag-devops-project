@@ -18,7 +18,7 @@ module "openai" {
 
 module "kv" {
   source              = "../../modules/keyvault"
-  name                = var.kv_name
+  name                = "rag-dev-kv"
   location            = var.rg_location
   resource_group_name = var.rg_name
 
