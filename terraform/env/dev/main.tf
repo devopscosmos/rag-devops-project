@@ -4,6 +4,28 @@ module "rg" {
   rg_location = var.rg_location
 }
 
+module "openai" {
+  source              = "../../modules/openai"
+  name                = var.openai_name
+  location            = var.rg_location
+  resource_group_name = var.rg_name
+
+  models = [
+    "gpt-4.1-mini",
+    "text-embedding-3-small"
+  ]
+}
+
+module "kv" {
+  source              = "../../modules/keyvault"
+  name                = var.kv_name
+  location            = var.rg_location
+  resource_group_name = var.rg_name
+
+  openai_key      = module.openai.primary_key
+  openai_endpoint = module.openai.endpoint
+}
+
 module "plan" {
   source              = "../../modules/app_service_plan"
   name                = "rag-dev-plan"
