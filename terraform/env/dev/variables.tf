@@ -16,4 +16,5 @@ variable "openai_name" {
 variable "kv_name" {
   description = "The name of the Key Vault resource."
   type        = string
+  default = "rag-kv"
 }
